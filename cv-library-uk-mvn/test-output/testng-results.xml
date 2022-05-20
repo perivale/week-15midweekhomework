@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default Suite" duration-ms="185168" started-at="2022-05-10T15:08:19 BST" finished-at="2022-05-10T15:11:24 BST">
+    <groups>
+      <group name="regression">
+        <method signature="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" class="uk.co.library.testsuite.JobSearchTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" class="uk.co.library.testsuite.JobSearchTest"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="JobSearchTest.verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" class="uk.co.library.testsuite.JobSearchTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="cv-library-uk-mvn" duration-ms="185168" started-at="2022-05-10T15:08:19 BST" finished-at="2022-05-10T15:11:24 BST">
+      <class name="uk.co.library.testsuite.JobSearchTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="setUp" is-config="true" duration-ms="7441" started-at="2022-05-10T15:08:19 BST" finished-at="2022-05-10T15:08:26 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="inIt" is-config="true" duration-ms="58" started-at="2022-05-10T15:08:26 BST" finished-at="2022-05-10T15:08:26 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="27337" started-at="2022-05-10T15:08:26 BST" data-provider="jobsearch" finished-at="2022-05-10T15:08:54 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[harrow]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 5 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[30000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per annum]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Permanent Tester jobs in Harrow on the Hill]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-05-10T15:08:54 BST" finished-at="2022-05-10T15:08:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="setUp" is-config="true" duration-ms="4948" started-at="2022-05-10T15:08:54 BST" finished-at="2022-05-10T15:08:59 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="inIt" is-config="true" duration-ms="9" started-at="2022-05-10T15:08:59 BST" finished-at="2022-05-10T15:08:59 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="30192" started-at="2022-05-10T15:08:59 BST" data-provider="jobsearch" finished-at="2022-05-10T15:09:29 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Automation Tester]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sheffield]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 5 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[40000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per annum]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Permanent]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Permanent Automation Tester jobs in Sheffield]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-05-10T15:09:29 BST" finished-at="2022-05-10T15:09:29 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="setUp" is-config="true" duration-ms="7895" started-at="2022-05-10T15:09:29 BST" finished-at="2022-05-10T15:09:37 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="inIt" is-config="true" duration-ms="6" started-at="2022-05-10T15:09:37 BST" finished-at="2022-05-10T15:09:37 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="31083" started-at="2022-05-10T15:09:37 BST" data-provider="jobsearch" finished-at="2022-05-10T15:10:08 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[manager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Nottinghamshire]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 15 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[40000]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[45000]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per annum]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Part Time]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Part Time Manager jobs in Nottinghamshire]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-05-10T15:10:08 BST" finished-at="2022-05-10T15:10:08 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="setUp" is-config="true" duration-ms="7340" started-at="2022-05-10T15:10:08 BST" finished-at="2022-05-10T15:10:15 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="inIt" is-config="true" duration-ms="7" started-at="2022-05-10T15:10:15 BST" finished-at="2022-05-10T15:10:15 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="30388" started-at="2022-05-10T15:10:15 BST" data-provider="jobsearch" finished-at="2022-05-10T15:10:46 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nurse]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[derby]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 10 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2200]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[3500]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per month]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Contract]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Contract Nurse jobs in Derby]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="tearDown" is-config="true" duration-ms="0" started-at="2022-05-10T15:10:46 BST" finished-at="2022-05-10T15:10:46 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="setUp" is-config="true" duration-ms="8230" started-at="2022-05-10T15:10:46 BST" finished-at="2022-05-10T15:10:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="inIt" is-config="true" duration-ms="5" started-at="2022-05-10T15:10:54 BST" finished-at="2022-05-10T15:10:54 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyJobSearchResultUsingDifferentDataSet(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="verifyJobSearchResultUsingDifferentDataSet" duration-ms="30112" started-at="2022-05-10T15:10:54 BST" data-provider="jobsearch" finished-at="2022-05-10T15:11:24 BST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Cleaner]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[london]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[up to 5 miles]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[100]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Per day]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[Part Time]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[Part Time Cleaner jobs in London]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyJobSearchResultUsingDifferentDataSet -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:uk.co.library.testsuite.JobSearchTest@27a5f880]" name="tearDown" is-config="true" duration-ms="1" started-at="2022-05-10T15:11:24 BST" finished-at="2022-05-10T15:11:24 BST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- uk.co.library.testsuite.JobSearchTest -->
+    </test> <!-- cv-library-uk-mvn -->
+  </suite> <!-- Default Suite -->
+</testng-results>
